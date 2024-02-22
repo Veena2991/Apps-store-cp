@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+}
+
+.app-store-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Bree Serif';
+}
+
+.ipTab-searchImg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #7b8794;
+  height: 30px;
+  padding: 2px;
+}
+
+.ip-tab {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.search-img {
+  height: 15px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.apps-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    max-width: 50%;
+  }
+
+  .ipTab-searchImg-container {
+    width: 50%;
+  }
+}
